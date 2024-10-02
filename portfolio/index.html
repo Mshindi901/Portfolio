@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial scale= 1.0">
+        <title>My Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="logo"><h1>Mshindi</h1></div>
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-instagram'></i>
+            </div>
+        </div>
+        <div class="profile"><img src="Images/IMG20240923150411 (1).jpg"></div>
+        <div class="wrapper-one">
+            <br>
+            <h1>I'm <div class="sir-name">Mshindi</div></h1>
+            <br>
+            <p class="description">My name is Emmanuel Mshindi, 
+                Passionate front-end developer specializing in HTML, CSS, and JavaScript, 
+                with a solid foundation in PHP. I create visually stunning, 
+                user-friendly web experiences that elevate brands and engage audiences</p>
+        </div>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            body{
+                background: black;
+            }
+            .nav-bar{
+                background: transparent;
+                margin-left: 50%;
+                margin-top: -65px;
+                margin-bottom: 15%;
+            }
+            .nav-bar nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo{
+                margin-left: 15px;
+                font-size: 35px;
+                font-weight: 600;
+                color: white;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+                font-size: 20px;
+                font-weight: bold;
+                margin-right: 15px;
+            }
+            li a{
+                text-decoration: none;
+                color: white;
+            }
+            .icons{
+                margin-left: 80%;
+                margin-top: -15px;
+                color: white;
+            }
+            .wrapper-one{
+                box-sizing: border-box;
+                margin-left: 25px;
+                margin-top: -22%;
+                background: transparent;
+                height: 40vh;
+                width: 100vh;
+            }
+            .wrapper-one h1{
+                margin-left: 30px;
+                margin-top: 20px;
+                font-size: 40px;
+                color: white;
+            }
+            .wrapper-one .sir-name{
+                color: red;
+            }
+            .wrapper-one p{
+                margin-left: 20px;
+                margin-top: 30px;
+                font-size: 20px;
+                color: white;
+            }
+           .profile img{
+                margin-top: 45px;
+                margin-left: 80%;
+                height: 300px;
+                width: 300px;
+                border-radius: 50%;
+            }
+        </style>
+    </body>
+</html>
